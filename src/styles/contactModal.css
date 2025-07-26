@@ -1,0 +1,132 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.contact-modal {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 420px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 20px var(--color-accent-light);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  animation: fadeInModal 0.3s ease-out;
+}
+
+@keyframes fadeInModal {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.dark .contact-modal {
+  background-color: rgba(20, 20, 20, 0.95);
+  box-shadow: 0 0 20px var(--color-accent-bright);
+}
+
+.contact-modal h2 {
+  margin-top: 0;
+  color: var(--color-accent);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contact-modal p {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.contact-modal input,
+.contact-modal textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--color-accent-light);
+  border-radius: 8px;
+  font-size: 1rem;
+  color: var(--color-text);
+  transition: border 0.2s ease, background 0.2s ease;
+}
+
+.contact-modal input:focus,
+.contact-modal textarea:focus {
+  outline: none;
+  border-color: var(--color-accent-bright);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.submit-btn {
+  background-color: var(--color-accent);
+  color: #111;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: var(--color-accent-bright);
+  transform: scale(1.02);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: transparent;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  color: var(--color-accent);
+  transition: transform 0.2s ease;
+}
+
+.close-btn:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 480px) {
+  .contact-modal {
+    padding: 1.5rem 1rem;
+    border-radius: 10px;
+  }
+
+  .contact-modal h2 {
+    font-size: 1.3rem;
+  }
+
+  .contact-modal input,
+  .contact-modal textarea {
+    font-size: 0.95rem;
+    padding: 0.65rem;
+  }
+
+  .submit-btn {
+    font-size: 1rem;
+    padding: 0.65rem 0.9rem;
+  }
+}

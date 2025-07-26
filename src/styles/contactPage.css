@@ -1,0 +1,120 @@
+.contact-page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-heading {
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+    color: var(--color-accent);
+    font-weight: 700;
+}
+
+.contact-text {
+    font-size: 1.15rem;
+    margin-bottom: 2.2rem;
+    line-height: 1.65;
+    max-width: 620px;
+}
+
+.social-section {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.social-label {
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+}
+
+.social-link {
+    font-size: 1.1rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    word-break: break-word;
+}
+
+.social-link:hover {
+    color: var(--color-accent-bright);
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.social-icon {
+    font-size: 2rem;
+    color: var(--color-accent);
+    transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    color: var(--color-accent-bright);
+}
+
+.contact-page-button {
+    padding: 0.7rem 1.5rem;
+    background-color: var(--color-accent);
+    color: #000;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    font-size: 1.05rem;
+    margin-top: 1rem;
+}
+
+.contact-page-button:hover {
+    background-color: var(--color-accent-bright);
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .contact-heading {
+        font-size: 1.8rem;
+    }
+
+    .contact-text {
+        font-size: 1rem;
+        padding: 0 0.5rem;
+    }
+
+    .social-link {
+        font-size: 1rem;
+    }
+
+    .contact-page-button {
+        font-size: 1rem;
+        padding: 0.6rem 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-heading {
+        font-size: 1.6rem;
+    }
+
+    .contact-text {
+        font-size: 0.95rem;
+        line-height: 1.55;
+    }
+
+    .social-link {
+        font-size: 0.95rem;
+    }
+}

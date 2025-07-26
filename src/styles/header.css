@@ -1,0 +1,127 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  position: relative;
+  z-index: 50;
+  flex-wrap: wrap;
+}
+
+.dark .header {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 40px;
+  filter: drop-shadow(0 0 3px var(--color-accent-light));
+}
+
+.logo-text {
+  margin-left: 0.6rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--color-accent);
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav a {
+  color: var(--color-accent);
+  font-weight: 500;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background: var(--color-accent-bright);
+  color: #111;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.lang-switch {
+  display: flex;
+  gap: 6px;
+}
+
+.theme-toggle,
+.lang-switch button {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--color-accent);
+  transition: transform 0.2s ease;
+}
+
+.theme-toggle:hover,
+.lang-switch button:hover {
+  transform: scale(1.2);
+  color: var(--color-accent-light);
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.6rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--color-accent);
+  transition: transform 0.2s ease;
+}
+
+.hamburger:hover {
+  transform: scale(1.15);
+}
+
+/* ✅ Responsive: Mobile Navigation */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-bg);
+    padding: 1rem 0;
+    z-index: 10;
+    gap: 1rem;
+    border-bottom: 1px solid var(--color-accent-light);
+    transition: all 0.3s ease;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .header-controls {
+    gap: 0.6rem;
+  }
+
+  .logo-text {
+    font-size: 1.1rem;
+  }
+}

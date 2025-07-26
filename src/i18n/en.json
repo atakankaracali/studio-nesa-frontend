@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "title": "Welcome to Studio Nesa",
+    "subtitle": "Unique handmade pieces by Vanesa",
+    "button": "Explore Gallery",
+    "extra": "✨ Handmade with love"
+  },
+  "header": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "available": "Available Products"
+  },
+  "products": {
+    "title": "Handmade Products",
+    "contact": "Contact",
+    "thankYouMessage": "Thank you! Your message has been saved."
+  },
+  "about": {
+    "title": "About Vanesa",
+    "desc": "Meet Vanesa, the creative soul behind Studio Nesa. Based in Latvia, crafting handmade products for over 12 years.",
+    "bio": "Vanesa was born in Latvia. She graduated with a degree in Chemistry from the University of Latvia and is currently pursuing her Master’s studies. Vanesa has been passionate about handmade creations for over 12 years, crafting unique pieces that carry a story.",
+    "instagram": "You can explore more of her works on Instagram:",
+    "note": "If you liked a product or want something unique, feel free to fill out the contact form, Vanesa would love to create something just for you."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "product": "Product",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "messagePlaceholder": "Your Message",
+    "send": "Send",
+    "sending": "Sending...",
+    "error": "Please fill in all fields.",
+    "successTitle": "Message Sent!",
+    "successMessage": "Thank you! Your message has been received.",
+    "okButton": "OK"
+  },
+  "contactPage": {
+    "title": "Contact | Studio Nesa",
+    "description": "Reach out to Studio Nesa for custom handmade orders or business inquiries.",
+    "heading": "Contact",
+    "text": "If you have any questions, custom order ideas, or collaboration requests, feel free to contact Studio Nesa. We're happy to hear from you!",
+    "social": "Follow us on Social Media:",
+    "contactButton": "Contact Vanesa"
+  }
+}

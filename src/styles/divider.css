@@ -1,0 +1,22 @@
+.divider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 2rem 0;
+}
+
+.divider-line {
+  flex-grow: 1;
+  border: none;
+  height: 1px;
+  background: var(--divider-color, #a5d6a7);
+  opacity: 0.6;
+}
+
+.divider-icon {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--divider-color, #a5d6a7);
+  white-space: nowrap;
+}

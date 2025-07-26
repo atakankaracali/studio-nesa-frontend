@@ -1,0 +1,47 @@
+{
+  "hero": {
+    "title": "Laipni lūdzam Studio Nesa",
+    "subtitle": "Unikāli roku darināti darbi no Vanesas",
+    "button": "Apskatīt galeriju",
+    "extra": "✨ Radīts ar mīlestību"
+  },
+  "header": {
+    "home": "Sākums",
+    "products": "Produkti",
+    "about": "Par mums",
+    "contact": "Kontakti",
+    "available": "Pieejamie produkti"
+  },
+  "products": {
+    "title": "Roku darbs",
+    "contact": "Sazināties"
+  },
+  "about": {
+    "title": "Par Vanesu",
+    "desc": "Iepazīstieties ar Vanesu — radošo dvēseli aiz Studio Nesa. Bāzēta Latvijā, viņa jau vairāk nekā 12 gadus veido rokām darinātus produktus.",
+    "bio": "Vanesa dzimusi Latvijā. Viņa absolvējusi Latvijas Universitāti ar ķīmijas grādu un pašlaik turpina maģistra studijas. Vanesa jau vairāk nekā 12 gadus kaislīgi nodarbojas ar roku darbiem, radot unikālus priekšmetus ar savu stāstu.",
+    "instagram": "Vairāk viņas darbu atradīsiet Instagram:",
+    "note": "Ja jums iepatikās kāds produkts vai vēlaties kaut ko unikālu, droši aizpildiet kontaktformu, Vanesa ar prieku radīs kaut ko īpaši jums."
+  },
+  "contact": {
+    "title": "Sazinies ar mums",
+    "product": "Produkts",
+    "namePlaceholder": "Tavs vārds",
+    "emailPlaceholder": "Tavs e-pasts",
+    "messagePlaceholder": "Tava ziņa",
+    "send": "Sūtīt",
+    "sending": "Sūta...",
+    "error": "Lūdzu, aizpildi visus laukus.",
+    "successTitle": "Ziņa nosūtīta!",
+    "successMessage": "Paldies! Tava ziņa ir saņemta.",
+    "okButton": "Labi"
+  },
+  "contactPage": {
+    "title": "Sazinieties | Studio Nesa",
+    "description": "Sazinieties ar Studio Nesa par individuāliem pasūtījumiem vai sadarbību.",
+    "heading": "Sazinieties ar mums",
+    "text": "Ja jums ir jautājumi, pasūtījumu idejas vai vēlme sadarboties – droši rakstiet Studio Nesa. Mēs ar prieku atbildēsim!",
+    "social": "Seko mums sociālajos tīklos:",
+    "contactButton": "Sazināties ar Vanesu"
+  }
+}

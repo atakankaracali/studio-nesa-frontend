@@ -1,0 +1,17 @@
+:root {
+  --color-bg: #f5fff7;
+  --color-text: #2E3B2F;
+  --color-accent: #689F38;
+  --color-accent-light: #AED581;
+  --color-accent-bright: #CDDC39;
+  --glow-color: #8BC34A;
+}
+
+html.dark {
+  --color-bg: #000;
+  --color-text: #FCF259;
+  --color-accent: #FCF259;
+  --color-accent-light: #D2FF72;
+  --color-accent-bright: #CDDC39;
+  --glow-color: #AED581;
+}
