@@ -3,7 +3,7 @@ import { Product } from "./productsData";
 const availableProductsData: Product[] = [
     {
         id: "product30",
-        images: ["/products/green-circle.webp"],
+        images: ["/products-optimized/green-circle.webp"],
         name: {
             en: "Green Crystal Circle Earrings",
             ru: "Серьги Круглые Зеленые Кристаллы",
@@ -17,7 +17,7 @@ const availableProductsData: Product[] = [
     },
     {
         id: "product58",
-        images: ["/products/purple-orange.webp"],
+        images: ["/products-optimized/purple-orange.webp"],
         name: {
             en: "Purple-Orange Hoop Earrings",
             ru: "Фиолетово-оранжевые серьги-кольца",
@@ -31,7 +31,7 @@ const availableProductsData: Product[] = [
     },
     {
         id: "product35",
-        images: ["/products/green-soft.webp"],
+        images: ["/products-optimized/green-soft.webp"],
         name: {
             en: "Fluffy Green Feather Earrings",
             ru: "Пушистые зелёные серьги с перьями",
@@ -45,7 +45,7 @@ const availableProductsData: Product[] = [
     },
     {
         id: "product31",
-        images: ["/products/green-glass-circle.webp"],
+        images: ["/products-optimized/green-glass-circle.webp"],
         name: {
             en: "Glass Green Circle Earrings",
             ru: "Серьги Круглые из Зелёного Стекла",
@@ -59,7 +59,7 @@ const availableProductsData: Product[] = [
     },
     {
         id: "product32",
-        images: ["/products/green-long.webp"],
+        images: ["/products-optimized/green-long.webp"],
         name: {
             en: "Long Green Earrings",
             ru: "Длинные зелёные серьги",
@@ -73,7 +73,7 @@ const availableProductsData: Product[] = [
     },
     {
         id: "product11",
-        images: ["/products/blue-long.webp"],
+        images: ["/products-optimized/blue-long.webp"],
         name: {
             en: "Pearl Feather Earrings",
             ru: "Серьги с перьями и жемчугом",
@@ -87,7 +87,7 @@ const availableProductsData: Product[] = [
     },
     {
         id: "product60",
-        images: ["/products/zombie-barbie.webp"],
+        images: ["/products-optimized/zombie-barbie.webp"],
         name: {
             en: "Pink & Green Feather Earrings",
             ru: "Серьги с розовыми и зелёными перьями",
@@ -101,7 +101,7 @@ const availableProductsData: Product[] = [
     },
     {
         id: "product61",
-        images: ["/products/purple-feather.webp"],
+        images: ["/products-optimized/purple-feather.webp"],
         name: {
             en: "Purple Feather Earrings",
             ru: "Фиолетовые серьги с перьями",

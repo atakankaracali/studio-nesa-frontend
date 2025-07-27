@@ -16,7 +16,7 @@ interface Product {
 const productsData: Product[] = [
     {
         id: "product1",
-        images: ["/products/audi.webp"],
+        images: ["/products-optimized/audi.webp"],
         name: {
             en: "Audi Crochet Pillow",
             ru: "Вязаная подушка Audi",
@@ -30,7 +30,7 @@ const productsData: Product[] = [
     },
     {
         id: "product2",
-        images: ["/products/baby-jacket-hood.webp"],
+        images: ["/products-optimized/baby-jacket-hood.webp"],
         name: {
             en: "Striped Baby Jacket with Hood",
             ru: "Полосатая детская куртка с капюшоном",
@@ -44,7 +44,7 @@ const productsData: Product[] = [
     },
     {
         id: "product3",
-        images: ["/products/baby-jacket-without-hood.webp"],
+        images: ["/products-optimized/baby-jacket-without-hood.webp"],
         name: {
             en: "Striped Baby Jacket with Deer Button",
             ru: "Полосатая детская куртка с пуговицей-олененком",
@@ -58,7 +58,7 @@ const productsData: Product[] = [
     },
     {
         id: "product4",
-        images: ["/products/barbie-flavor.webp"],
+        images: ["/products-optimized/barbie-flavor.webp"],
         name: {
             en: "Crochet Rose Flower",
             ru: "Вязаная роза",
@@ -72,7 +72,7 @@ const productsData: Product[] = [
     },
     {
         id: "product5",
-        images: ["/products/barbiee.webp"],
+        images: ["/products-optimized/barbiee.webp"],
         name: {
             en: "Pink Feather Earrings",
             ru: "Серьги с розовыми перьями",
@@ -86,7 +86,7 @@ const productsData: Product[] = [
     },
     {
         id: "product6",
-        images: ["/products/berries.webp"],
+        images: ["/products-optimized/berries.webp"],
         name: {
             en: "Golden Earrings with Beads",
             ru: "Золотые серьги с бусинами",
@@ -100,7 +100,7 @@ const productsData: Product[] = [
     },
     {
         id: "product7",
-        images: ["/products/big-heart.webp"],
+        images: ["/products-optimized/big-heart.webp"],
         name: {
             en: "Heart-Shaped Earrings",
             ru: "Серьги в форме сердца",
@@ -114,7 +114,7 @@ const productsData: Product[] = [
     },
     {
         id: "product8",
-        images: ["/products/black-lady.webp"],
+        images: ["/products-optimized/black-lady.webp"],
         name: {
             en: "Black Tassel Earrings",
             ru: "Серьги с черными кисточками",
@@ -128,7 +128,7 @@ const productsData: Product[] = [
     },
     {
         id: "product9",
-        images: ["/products/blue-baby-1.webp", "/products/blue-baby-2.webp"],
+        images: ["/products-optimized/blue-baby-1.webp", "/products-optimized/blue-baby-2.webp"],
         name: {
             en: "Blue Striped Baby Booties",
             ru: "Синие полосатые пинетки",
@@ -142,7 +142,7 @@ const productsData: Product[] = [
     },
     {
         id: "product10",
-        images: ["/products/blue-leaf.webp"],
+        images: ["/products-optimized/blue-leaf.webp"],
         name: {
             en: "Blue Crystal Leaf Earrings",
             ru: "Серьги с синими кристаллами и листьями",
@@ -156,7 +156,7 @@ const productsData: Product[] = [
     },
     {
         id: "product11",
-        images: ["/products/blue-long.webp"],
+        images: ["/products-optimized/blue-long.webp"],
         name: {
             en: "Pearl Feather Earrings",
             ru: "Серьги с перьями и жемчугом",
@@ -170,7 +170,7 @@ const productsData: Product[] = [
     },
     {
         id: "product12",
-        images: ["/products/blue-pillow.webp"],
+        images: ["/products-optimized/blue-pillow.webp"],
         name: {
             en: "Blue Crochet Pillow",
             ru: "Синяя вязаная подушка",
@@ -184,7 +184,7 @@ const productsData: Product[] = [
     },
     {
         id: "product13",
-        images: ["/products/blue-ship.webp"],
+        images: ["/products-optimized/blue-ship.webp"],
         name: {
             en: "Anchor Earrings",
             ru: "Серьги с якорями",
@@ -198,7 +198,7 @@ const productsData: Product[] = [
     },
     {
         id: "product14",
-        images: ["/products/blue-silver-w.webp"],
+        images: ["/products-optimized/blue-silver-w.webp"],
         name: {
             en: "Teardrop Blue Crystal Earrings",
             ru: "Серьги с каплевидными синими кристаллами",
@@ -212,7 +212,7 @@ const productsData: Product[] = [
     },
     {
         id: "product15",
-        images: ["/products/blue-socks.webp"],
+        images: ["/products-optimized/blue-socks.webp"],
         name: {
             en: "Single Blue Baby Bootie",
             ru: "Одна синяя детская пинетка",
@@ -226,7 +226,7 @@ const productsData: Product[] = [
     },
     {
         id: "product16",
-        images: ["/products/blue-some-s.webp"],
+        images: ["/products-optimized/blue-some-s.webp"],
         name: {
             en: "Dark Blue Pearl Earrings",
             ru: "Серьги с темно-синими жемчужинами",
@@ -240,7 +240,7 @@ const productsData: Product[] = [
     },
     {
         id: "product17",
-        images: ["/products/blue-star.webp"],
+        images: ["/products-optimized/blue-star.webp"],
         name: {
             en: "Star-Shaped Pillow",
             ru: "Подушка в форме звезды",
@@ -254,7 +254,7 @@ const productsData: Product[] = [
     },
     {
         id: "product18",
-        images: ["/products/botton.webp"],
+        images: ["/products-optimized/botton.webp"],
         name: {
             en: "Los Angeles Coin Earrings",
             ru: "Серьги-монеты 'Los Angeles'",
@@ -268,7 +268,7 @@ const productsData: Product[] = [
     },
     {
         id: "product19",
-        images: ["/products/bronze.webp"],
+        images: ["/products-optimized/bronze.webp"],
         name: {
             en: "Bronze Dangle Earrings",
             ru: "Бронзовые серьги с подвесками",
@@ -282,7 +282,7 @@ const productsData: Product[] = [
     },
     {
         id: "product20",
-        images: ["/products/cherry-yogurt.webp"],
+        images: ["/products-optimized/cherry-yogurt.webp"],
         name: {
             en: "Cherry Yogurt Earrings",
             ru: "Серьги Вишнёвый йогурт",
@@ -296,7 +296,7 @@ const productsData: Product[] = [
     },
     {
         id: "product21",
-        images: ["/products/complex.webp"],
+        images: ["/products-optimized/complex.webp"],
         name: {
             en: "Compass Chain Earrings",
             ru: "Серьги с компасом и цепями",
@@ -310,7 +310,7 @@ const productsData: Product[] = [
     },
     {
         id: "product22",
-        images: ["/products/diamond-blue.webp"],
+        images: ["/products-optimized/diamond-blue.webp"],
         name: {
             en: "Blue Diamond Earrings",
             ru: "Синие бриллиантовые серьги",
@@ -324,7 +324,7 @@ const productsData: Product[] = [
     },
     {
         id: "product23",
-        images: ["/products/dream-catcher.webp"],
+        images: ["/products-optimized/dream-catcher.webp"],
         name: {
             en: "Green Dreamcatcher",
             ru: "Зелёный ловец снов",
@@ -338,7 +338,7 @@ const productsData: Product[] = [
     },
     {
         id: "product24",
-        images: ["/products/fancy-gold.webp"],
+        images: ["/products-optimized/fancy-gold.webp"],
         name: {
             en: "Fancy Gold Earrings",
             ru: "Шикарные золотые серьги",
@@ -352,7 +352,7 @@ const productsData: Product[] = [
     },
     {
         id: "product25",
-        images: ["/products/gipsy-black.webp"],
+        images: ["/products-optimized/gipsy-black.webp"],
         name: {
             en: "Black Gypsy Earrings",
             ru: "Чёрные гламурные серьги",
@@ -366,7 +366,7 @@ const productsData: Product[] = [
     },
     {
         id: "product26",
-        images: ["/products/gipsy-heart.webp"],
+        images: ["/products-optimized/gipsy-heart.webp"],
         name: {
             en: "Golden Heart Earrings",
             ru: "Золотые серьги-сердца",
@@ -380,7 +380,7 @@ const productsData: Product[] = [
     },
     {
         id: "product27",
-        images: ["/products/gipsy.webp"],
+        images: ["/products-optimized/gipsy.webp"],
         name: {
             en: "Red Crystal Hoop Earrings",
             ru: "Серьги-кольца с красными кристаллами",
@@ -394,7 +394,7 @@ const productsData: Product[] = [
     },
     {
         id: "product28",
-        images: ["/products/gold-pink.webp"],
+        images: ["/products-optimized/gold-pink.webp"],
         name: {
             en: "Pink Blossom Earrings",
             ru: "Серьги Розовый цветок",
@@ -408,7 +408,7 @@ const productsData: Product[] = [
     },
     {
         id: "product29",
-        images: ["/products/good-black.webp"],
+        images: ["/products-optimized/good-black.webp"],
         name: {
             en: "Black Leaf Earrings",
             ru: "Серьги с чёрным листом",
@@ -422,7 +422,7 @@ const productsData: Product[] = [
     },
     {
         id: "product30",
-        images: ["/products/green-circle.webp"],
+        images: ["/products-optimized/green-circle.webp"],
         name: {
             en: "Green Crystal Circle Earrings",
             ru: "Серьги Круглые Зеленые Кристаллы",
@@ -436,7 +436,7 @@ const productsData: Product[] = [
     },
     {
         id: "product31",
-        images: ["/products/green-glass-circle.webp"],
+        images: ["/products-optimized/green-glass-circle.webp"],
         name: {
             en: "Glass Green Circle Earrings",
             ru: "Серьги Круглые из Зелёного Стекла",
@@ -450,7 +450,7 @@ const productsData: Product[] = [
     },
     {
         id: "product32",
-        images: ["/products/green-long.webp"],
+        images: ["/products-optimized/green-long.webp"],
         name: {
             en: "Long Green Earrings",
             ru: "Длинные зелёные серьги",
@@ -464,7 +464,7 @@ const productsData: Product[] = [
     },
     {
         id: "product33",
-        images: ["/products/green-pillows.webp"],
+        images: ["/products-optimized/green-pillows.webp"],
         name: {
             en: "Green Crochet Pillows",
             ru: "Зелёные вязаные подушки",
@@ -478,7 +478,7 @@ const productsData: Product[] = [
     },
     {
         id: "product34",
-        images: ["/products/green-ship.webp"],
+        images: ["/products-optimized/green-ship.webp"],
         name: {
             en: "Green Ship Earrings",
             ru: "Серьги с зелёными бусинами и штурвалом",
@@ -492,7 +492,7 @@ const productsData: Product[] = [
     },
     {
         id: "product35",
-        images: ["/products/green-soft.webp"],
+        images: ["/products-optimized/green-soft.webp"],
         name: {
             en: "Fluffy Green Feather Earrings",
             ru: "Пушистые зелёные серьги с перьями",
@@ -506,7 +506,7 @@ const productsData: Product[] = [
     },
     {
         id: "product36",
-        images: ["/products/green-sparkle.webp", "/products/green-sparkle2.webp"],
+        images: ["/products-optimized/green-sparkle.webp", "/products-optimized/green-sparkle2.webp"],
         name: {
             en: "Green Sparkle Earrings",
             ru: "Зелёные блестящие серьги",
@@ -520,7 +520,7 @@ const productsData: Product[] = [
     },
     {
         id: "product37",
-        images: ["/products/green-yellow.webp"],
+        images: ["/products-optimized/green-yellow.webp"],
         name: {
             en: "Green & Yellow Earrings",
             ru: "Зелёно-жёлтые серьги",
@@ -534,7 +534,7 @@ const productsData: Product[] = [
     },
     {
         id: "product38",
-        images: ["/products/green_gipsy.webp"],
+        images: ["/products-optimized/green_gipsy.webp"],
         name: {
             en: "Green Gipsy Style Earrings",
             ru: "Зелёные цыганские серьги",
@@ -548,7 +548,7 @@ const productsData: Product[] = [
     },
     {
         id: "product40",
-        images: ["/products/hippie.webp", "/products/hippie2.webp"],
+        images: ["/products-optimized/hippie.webp", "/products-optimized/hippie2.webp"],
         name: {
             en: "Hippie Style Earrings",
             ru: "Серьги в стиле хиппи",
@@ -562,7 +562,7 @@ const productsData: Product[] = [
     },
     {
         id: "product41",
-        images: ["/products/honey-melons.webp"],
+        images: ["/products-optimized/honey-melons.webp"],
         name: {
             en: "Honey Melon Earrings",
             ru: "Серьги Медовые Дыни",
@@ -576,7 +576,7 @@ const productsData: Product[] = [
     },
     {
         id: "product43",
-        images: ["/products/latvian-pillow.webp", "/products/long-purple.webp"],
+        images: ["/products-optimized/latvian-pillow.webp", "/products-optimized/long-purple.webp"],
         name: {
             en: "Latvian Handmade Pillow",
             ru: "Латвийская подушка ручной работы",
@@ -590,7 +590,7 @@ const productsData: Product[] = [
     },
     {
         id: "product44",
-        images: ["/products/lotus.webp"],
+        images: ["/products-optimized/lotus.webp"],
         name: {
             en: "Lotus Earrings",
             ru: "Серьги Лотос",
@@ -604,7 +604,7 @@ const productsData: Product[] = [
     },
     {
         id: "product45",
-        images: ["/products/money-pink.webp"],
+        images: ["/products-optimized/money-pink.webp"],
         name: {
             en: "Money Pink Earrings",
             ru: "Серьги Денежно-Розовые",
@@ -618,7 +618,7 @@ const productsData: Product[] = [
     },
     {
         id: "product46",
-        images: ["/products/zombiee.webp"],
+        images: ["/products-optimized/zombiee.webp"],
         name: {
             en: "Zombie Feather Earrings",
             ru: "Серьги с перьями 'Зомби'",
@@ -632,7 +632,7 @@ const productsData: Product[] = [
     },
     {
         id: "product47",
-        images: ["/products/nesa-tree.webp"],
+        images: ["/products-optimized/nesa-tree.webp"],
         name: {
             en: "Tree of Life Earrings",
             ru: "Серьги 'Дерево жизни'",
@@ -646,7 +646,7 @@ const productsData: Product[] = [
     },
     {
         id: "product48",
-        images: ["/products/orange.webp", "/products/orange2.webp"],
+        images: ["/products-optimized/orange.webp", "/products-optimized/orange2.webp"],
         name: {
             en: "Orange Feather Earrings",
             ru: "Серьги с оранжевыми перьями",
@@ -660,7 +660,7 @@ const productsData: Product[] = [
     },
     {
         id: "product49",
-        images: ["/products/pillows.webp"],
+        images: ["/products-optimized/pillows.webp"],
         name: {
             en: "Colorful Crochet Pillows",
             ru: "Яркие вязаные подушки",
@@ -674,7 +674,7 @@ const productsData: Product[] = [
     },
     {
         id: "product50",
-        images: ["/products/pink-baby-1.webp", "/products/pink-baby-2.webp", "/products/pink-baby-3.webp"],
+        images: ["/products-optimized/pink-baby-1.webp", "/products-optimized/pink-baby-2.webp", "/products-optimized/pink-baby-3.webp"],
         name: {
             en: "Pink Baby Booties Set",
             ru: "Набор розовых детских пинеток",
@@ -688,7 +688,7 @@ const productsData: Product[] = [
     },
     {
         id: "product51",
-        images: ["/products/pink-heart.webp"],
+        images: ["/products-optimized/pink-heart.webp"],
         name: {
             en: "Heart Shaped Earrings",
             ru: "Серьги в форме сердца",
@@ -702,7 +702,7 @@ const productsData: Product[] = [
     },
     {
         id: "product52",
-        images: ["/products/pink-long.webp", "/products/pink-long2.webp"],
+        images: ["/products-optimized/pink-long.webp", "/products-optimized/pink-long2.webp"],
         name: {
             en: "Long Pink Earrings",
             ru: "Длинные розовые серьги",
@@ -716,7 +716,7 @@ const productsData: Product[] = [
     },
     {
         id: "product53",
-        images: ["/products/pink-triangle.webp"],
+        images: ["/products-optimized/pink-triangle.webp"],
         name: {
             en: "Triangle Pink Earrings",
             ru: "Треугольные розовые серьги",
@@ -730,7 +730,7 @@ const productsData: Product[] = [
     },
     {
         id: "product54",
-        images: ["/products/pink-yellow-barbie.webp"],
+        images: ["/products-optimized/pink-yellow-barbie.webp"],
         name: {
             en: "Pink-Yellow Barbie Earrings",
             ru: "Серьги Барби розово-жёлтые",
@@ -744,7 +744,7 @@ const productsData: Product[] = [
     },
     {
         id: "product56",
-        images: ["/products/planets.webp"],
+        images: ["/products-optimized/planets.webp"],
         name: {
             en: "Planet Charm Earrings",
             ru: "Серьги с подвесками-планетами",
@@ -758,7 +758,7 @@ const productsData: Product[] = [
     },
     {
         id: "product57",
-        images: ["/products/purple-glass.webp"],
+        images: ["/products-optimized/purple-glass.webp"],
         name: {
             en: "Purple Glass Earrings",
             ru: "Серьги с фиолетовым стеклом",
@@ -772,7 +772,7 @@ const productsData: Product[] = [
     },
     {
         id: "product58",
-        images: ["/products/purple-orange.webp"],
+        images: ["/products-optimized/purple-orange.webp"],
         name: {
             en: "Purple-Orange Hoop Earrings",
             ru: "Фиолетово-оранжевые серьги-кольца",
@@ -786,7 +786,7 @@ const productsData: Product[] = [
     },
     {
         id: "product59",
-        images: ["/products/rainbow-star.webp"],
+        images: ["/products-optimized/rainbow-star.webp"],
         name: {
             en: "Rainbow Star Pillow",
             ru: "Подушка в форме радужной звезды",
@@ -800,7 +800,7 @@ const productsData: Product[] = [
     },
     {
         id: "product60",
-        images: ["/products/zombie-barbie.webp"],
+        images: ["/products-optimized/zombie-barbie.webp"],
         name: {
             en: "Pink & Green Feather Earrings",
             ru: "Серьги с розовыми и зелёными перьями",
@@ -814,7 +814,7 @@ const productsData: Product[] = [
     },
     {
         id: "product61",
-        images: ["/products/purple-feather.webp"],
+        images: ["/products-optimized/purple-feather.webp"],
         name: {
             en: "Purple Feather Earrings",
             ru: "Фиолетовые серьги с перьями",

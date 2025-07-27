@@ -17,7 +17,7 @@ const About: React.FC = () => {
             </Helmet>
             <Divider icon="" text="🌿V🌿" />
             <img
-                src="/products/my-love.webp"
+                src="/products-optimized/my-love.webp"
                 alt="Vanesa"
                 className="about-image"
                 loading="lazy"
