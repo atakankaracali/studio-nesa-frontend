@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 90vh;
-  padding: 3rem 1.5rem;
+  min-height: 70vh;
+  padding: 0.6rem;
   text-align: center;
   position: relative;
   overflow: hidden;

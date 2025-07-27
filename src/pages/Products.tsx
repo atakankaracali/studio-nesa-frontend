@@ -16,7 +16,7 @@ const Products: React.FC = () => {
     const [galleryIndex, setGalleryIndex] = useState(0);
     const [isContactOpen, setIsContactOpen] = useState(false);
 
-    const lang = i18n.language;
+    const lang = i18n.language as "en" | "ru" | "lv";
     const startIndex = (currentPage - 1) * PRODUCTS_PER_PAGE;
     const currentProducts = productsData.slice(startIndex, startIndex + PRODUCTS_PER_PAGE);
     const totalPages = Math.ceil(productsData.length / PRODUCTS_PER_PAGE);
@@ -33,6 +33,7 @@ const Products: React.FC = () => {
                             src={product.images[0]}
                             alt={product.name[lang]}
                             className="product-image"
+                            loading="lazy"
                             onClick={() => {
                                 setSelectedProduct(product);
                                 setGalleryIndex(0);
@@ -64,19 +65,10 @@ const Products: React.FC = () => {
                 />
             )}
 
-            {/* Contact Modal (Şimdilik sadece UI, ileride Firebase entegresi) */}
             {isContactOpen && selectedProduct && (
                 <ContactModal
                     productName={selectedProduct.name[lang]}
                     onClose={() => setIsContactOpen(false)}
-                    onSubmit={(data) => {
-                        console.log("Mesaj hazır (Firebase entegrasyonu yakında):", {
-                            ...data,
-                            product: selectedProduct.name[lang],
-                        });
-                        alert(t("products.thankYouMessage", "Thank you! Your message has been saved."));
-                        setIsContactOpen(false);
-                    }}
                 />
             )}
             <Divider icon="" text="🌿V🌿" />

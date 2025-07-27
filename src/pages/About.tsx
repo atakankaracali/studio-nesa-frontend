@@ -20,6 +20,7 @@ const About: React.FC = () => {
                 src="/products/my-love.jpg"
                 alt="Vanesa"
                 className="about-image"
+                loading="lazy"
             />
             <Divider icon="" text="🌿V🌿" />
 
