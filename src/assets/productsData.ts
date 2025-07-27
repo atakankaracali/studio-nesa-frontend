@@ -214,14 +214,14 @@ const productsData: Product[] = [
         id: "product15",
         images: ["/products-optimized/blue-socks.webp"],
         name: {
-            en: "Single Blue Baby Bootie",
-            ru: "Одна синяя детская пинетка",
-            lv: "Viena zila zīdaiņu čība"
+            en: "Blue Baby Socks",
+            ru: "Синие детские носки",
+            lv: "Zilas mazuļu zeķītes"
         },
         description: {
-            en: "Single handmade baby sock in sparkly blue and cream.",
-            ru: "Одна вязаная детская пинетка с синими и кремовыми полосками.",
-            lv: "Tamborēta zīdaiņu čība ar zilām un krēmkrāsas svītrām."
+            en: "Handmade baby socks in sparkly blue and cream.",
+            ru: "Детские носки ручной работы блестящих синих и кремовых тонов.",
+            lv: "Roku darbs mazuļu zeķītes mirdzoši zilā un krēmkrāsā."
         }
     },
     {
@@ -248,7 +248,7 @@ const productsData: Product[] = [
         },
         description: {
             en: "Blue and cream star-shaped handmade crochet pillow.",
-            ru: "Ручная подушка в форме звезды — сине-кремовая.",
+            ru: "Ручная подушка в форме звезды, сине-кремовая.",
             lv: "Tamborēts spilvens zvaigznes formā zilā un krēmkrāsā."
         }
     },
@@ -466,14 +466,14 @@ const productsData: Product[] = [
         id: "product33",
         images: ["/products-optimized/green-pillows.webp"],
         name: {
-            en: "Green Crochet Pillows",
-            ru: "Зелёные вязаные подушки",
-            lv: "Zaļi tamborēti spilveni"
+            en: "Green Crochet Pillow",
+            ru: "Зеленая вязаная крючком подушка",
+            lv: "Zaļš tamborēts spilvens"
         },
         description: {
-            en: "Handmade green pillow set with soft texture.",
-            ru: "Ручная работа: зелёные подушки с мягкой текстурой.",
-            lv: "Zaļi roku darināti spilveni ar mīkstu tekstūru."
+            en: "Handmade green pillow with soft texture.",
+            ru: "Зелёная подушка ручной работы с мягкой текстурой.",
+            lv: "Ar rokām darināts zaļš spilvens ar maigu tekstūru."
         }
     },
     {
@@ -625,9 +625,9 @@ const productsData: Product[] = [
             lv: "Zombiju spalvu auskari"
         },
         description: {
-            en: "Wild and vivid earrings with green and purple feathers — a true zombie vibe.",
-            ru: "Яркие и дерзкие серьги с зелеными и фиолетовыми перьями — стиль зомби.",
-            lv: "Spilgtas un trakas auskari ar zaļām un violetām spalvām — īsts zombiju stils."
+            en: "Wild and vivid earrings with green and purple feathers, a true zombie vibe.",
+            ru: "Яркие и дерзкие серьги с зелеными и фиолетовыми перьями, стиль зомби.",
+            lv: "Spilgtas un trakas auskari ar zaļām un violetām spalvām, īsts zombiju stils."
         }
     },
     {
@@ -653,9 +653,9 @@ const productsData: Product[] = [
             lv: "Oranži spalvu auskari"
         },
         description: {
-            en: "Handmade bright orange feather earrings — cozy and stylish for any look.",
-            ru: "Яркие оранжевые серьги с перьями ручной работы — уютные и стильные.",
-            lv: "Koši oranži spalvu auskari — roku darbs, silti un stilīgi."
+            en: "Handmade bright orange feather earrings, cozy and stylish for any look.",
+            ru: "Яркие оранжевые серьги с перьями ручной работы, уютные и стильные.",
+            lv: "Koši oranži spalvu auskari, roku darbs, silti un stilīgi."
         }
     },
     {
@@ -676,14 +676,14 @@ const productsData: Product[] = [
         id: "product50",
         images: ["/products-optimized/pink-baby-1.webp", "/products-optimized/pink-baby-2.webp", "/products-optimized/pink-baby-3.webp"],
         name: {
-            en: "Pink Baby Booties Set",
-            ru: "Набор розовых детских пинеток",
-            lv: "Rozā zīdaiņu čībiņu komplekts"
+            en: "Pink Baby Booties",
+            ru: "Розовые детские пинетки",
+            lv: "Rozā bērnu zābaciņi"
         },
         description: {
-            en: "Three cozy pink handmade baby booties with a sparkly finish.",
-            ru: "Три уютные розовые пинетки ручной работы с блестками.",
-            lv: "Trīs rozā roku darba zīdaiņu čības ar mirdzošu pārklājumu."
+            en: "Cozy pink handmade baby booties with a sparkly finish.",
+            ru: "Уютные розовые детские пинетки ручной работы с блестящей отделкой.",
+            lv: "Mājīgi rozā roku darināti mazuļa zābaciņi ar mirdzošu apdari."
         }
     },
     {
