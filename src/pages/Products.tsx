@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import productsData from "../assets/productsData";
 import "../styles/products.css";
@@ -21,6 +21,13 @@ const Products: React.FC = () => {
     const currentProducts = productsData.slice(startIndex, startIndex + PRODUCTS_PER_PAGE);
     const totalPages = Math.ceil(productsData.length / PRODUCTS_PER_PAGE);
 
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    }, [currentPage]);
+
     return (
         <div className="products-container">
             <h2 className="products-title">{t("products.title")}</h2>
@@ -34,6 +41,7 @@ const Products: React.FC = () => {
                             alt={product.name[lang]}
                             className="product-image"
                             loading="lazy"
+                            decoding="async"
                             onClick={() => {
                                 setSelectedProduct(product);
                                 setGalleryIndex(0);

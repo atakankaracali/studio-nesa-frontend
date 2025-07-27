@@ -35,6 +35,7 @@ const AvailableProducts: React.FC = () => {
               alt={product.name[lang]}
               className="product-image"
               loading="lazy"
+              decoding="async"
               onClick={() => {
                 setSelectedProduct(product);
                 setGalleryIndex(0);
